@@ -1,0 +1,554 @@
+Resumo;Chave do item;ID do item;ID principal;Tipo de Item;Situação;Chave do projeto;Nome do projeto;Tipo de projeto;Líder do projeto;Descrição do projeto;URL do projeto;Prioridade;Resolução;Responsável;Solicitante;Criador;Criado;Atualizado;Última visualização;Resolvido;Componente(s);Componente(s);Data para Ficar Pronto;Votos;Descrição;Ambiente;Acompanhadores;Acompanhadores;Acompanhadores;Tempo Estimado;Tempo Restante;Tempo Gasto;Razão Trabalhada;Σ da Estimativa Original;Σ da Estimativa Restante;Σ Tempo Gasto;Nível de Segurança;Anexos;Anexos;Campo personalizado (Ambiente de teste);Campo personalizado (CSV Link);Campo personalizado (Conclusão prevista para);Campo personalizado (Critério de Aceite);Campo personalizado (Duration [Gantt]);Campo personalizado (End Date [Gantt]);Campo personalizado (Epic Link);Campo personalizado (Equipe);Campo personalizado (Estimativa Genérica);Campo personalizado (Início alvo);Campo personalizado (Link para pai);Campo personalizado (Marcado);Campo personalizado (Notebook link);Campo personalizado (Perfis de acesso);Campo personalizado (Pontos da História);Campo personalizado (Pontos da história originais);Campo personalizado (Projeto);Campo personalizado (Rank);Sprint;Sprint;Sprint;Sprint;Campo personalizado (Start Date [Gantt]);Campo personalizado (Tela do figma);Comentário;Comentário;Comentário
+[Front] Implementar tela de onboarding de usuário - contas smart;IZY-3531;32003;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;06/01/25 10:14:26;06/01/25 11:20:28;06/01/25 11:20:28;;;;;0;"Implementar tela de recepção de usuários no onboarding e opções de vinculação de conta, em conformidade com protótipo de alta fidelidade.";;eliezio.soares;;;;;;;;;;;"06/01/25 10:14:39;eliezio.soares;onboarding conta.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22904/onboarding+conta.png";;;;;;;;;;;;;;;;;;;"0|i032cc:";Izy - Cycle 24.1 Sprint 4;;;;;;;;
+[Front] Implementar tela de perfil - vincular contas;IZY-3530;32002;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;06/01/25 10:08:28;06/01/25 11:20:48;06/01/25 11:20:48;;FRONT;;;0;"Implementar tela de vinculação de contas no onboarding de usuários, em conformidade com protótipo de alta fidelidade.";;eliezio.soares;;;;;;;;;;;"06/01/25 10:11:37;eliezio.soares;contas.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22903/contas.png";"06/01/25 10:08:39;eliezio.soares;perfil-vincularconta.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22902/perfil-vincularconta.png";;;;;;;;;;;;;;;;;;"0|i032c4:";Izy - Cycle 24.1 Sprint 4;;;;;;;;
+[Front] Implementar tela de onboarding de usuário;IZY-3529;32001;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;06/01/25 10:03:54;06/01/25 11:16:46;06/01/25 11:16:46;;FRONT;;;0;Implementar tela de recepção de usuários no onboarding em conformidade com protótipo de alta fidelidade.;;eliezio.soares;;;;;;;;;;;"06/01/25 10:04:07;eliezio.soares;onboarding.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22901/onboarding.png";;;;;;;;;;;;;;;;;;;"0|i032ck:";Izy - Cycle 24.1 Sprint 4;;;;;;;;
+[Front] Implementar tela de login;IZY-3528;32000;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;06/01/25 09:56:59;06/01/25 11:21:02;06/01/25 11:21:02;;FRONT;;;0;"Remodelar tela de login para novo padrão de onboarding de usuário, em conformidade com protótipo de alta fidelidade.";;eliezio.soares;;;;;;;;;;;"06/01/25 09:57:21;eliezio.soares;login.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22900/login.png";;;;;;;;;;;;;;;;;;;"0|i032bw:";Izy - Cycle 24.1 Sprint 4;;;;;;;;
+[BACK] Erro ao finalizar vinculação de conta Imou;IZY-3527;31956;30708;Sub-tarefa-bug;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;aamedeiros;aamedeiros;27/12/24 16:33:16;27/12/24 22:35:30;06/01/25 14:56:12;27/12/24 22:35:30;BACK;;;0;"Ao finalizar a vinculação da conta Imou, é mostrado um toast vermelho para o usuário indicando erro de requisição. Tal situação ocorre pois acontece erro 401 no endpoint ""mou/users/attach"". Tal situação é mostrada no vídeo abaixo.
+
+[^Gravar_2024_12_27_16_09_33_573.mp4]
+
+ ";;aamedeiros;;;;;;;;;;;"27/12/24 16:31:43;aamedeiros;Gravar_2024_12_27_16_09_33_573.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22828/Gravar_2024_12_27_16_09_33_573.mp4";;;;;;;;;;;;;;;;;;;"0|i032bo:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FRONT] Redirecionamento para url incorreta;IZY-3526;31930;30708;Sub-tarefa-bug;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;aamedeiros;aamedeiros;27/12/24 15:03:13;27/12/24 15:04:36;06/01/25 14:56:12;27/12/24 15:03:57;FRONT;;;0;"Após realizar o login na imou, o usuário está sendo redirecionado para uma url incorreta, conforme mostrado na imagem abaixo. 
+
+ 
+
+!image-2024-12-27-15-02-50-528.png!";;aamedeiros;;;;;;;;;;;"27/12/24 15:02:49;aamedeiros;image-2024-12-27-15-02-50-528.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22827/image-2024-12-27-15-02-50-528.png";;;;;;;;;;;;;;;;;;;"0|i03264:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FRONT] Redirecionamento incorreto após autorização da Imou;IZY-3525;31925;30708;Sub-tarefa-bug;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;aamedeiros;aamedeiros;27/12/24 10:54:17;27/12/24 11:41:16;27/12/24 14:19:09;27/12/24 11:41:16;FRONT;;;0;"Quando o usuário faz o login na Imou e clica para autorizar, está dando tela 404 pois o front espera o code em select-home ao invés de auth. Tal situação é mostrado no vídeo abaixo.
+
+[^Gravar_2024_12_27_10_18_51_207.mp4]
+
+ ";;aamedeiros;;;;;;;;;;;"27/12/24 10:53:47;aamedeiros;Gravar_2024_12_27_10_18_51_207.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22824/Gravar_2024_12_27_10_18_51_207.mp4";;;;;;;;;;;;;;;;;;;"0|i03250:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+Não é possível vincular conta;IZY-3524;31917;30708;Sub-tarefa-bug;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;aamedeiros;aamedeiros;27/12/24 08:37:42;27/12/24 11:41:14;27/12/24 14:18:51;27/12/24 11:41:14;;;;0;"Ao clicar para vincular conta, o usuário é redirecionado para tela de empreendimentos, conforme mostrado no vídeo abaixo.
+
+[^Gravar_2024_12_27_07_39_17_985.mp4]
+
+ ";;aamedeiros;;;;;;;;;;;"27/12/24 08:36:58;aamedeiros;Gravar_2024_12_27_07_39_17_985.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22822/Gravar_2024_12_27_07_39_17_985.mp4";;;;;;;;;;;;;;;;;;;"0|i03238:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Alterar prefixo mibo para imou nos endpoints;IZY-3523;31891;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;26/12/24 09:46:11;26/12/24 09:49:51;06/01/25 14:56:12;26/12/24 09:49:51;FRONT;;;0;"endpoints afetados
+
+POST mibo/users/attach -> imou/users/attach
+
+GET mibo/users/\{userId}/devices -> imou/users/\{userId}/devices";;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i031xo:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[BackEnd] Utilizar Refresh Token para renovar Token de acesso Imou;IZY-3522;31730;;História;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;paulo.lopes.013;paulo.lopes.013;20/12/24 21:46:52;06/01/25 08:09:01;23/12/24 11:05:52;27/12/24 14:13:50;BACK;;;0;"Atualmente o acessToken da conta Imou vinculada tem duração de 2h. Próximo a esse tempo (1h30), ao realizar alguma requisição, o acessToken devera ser renovado automaticamente, por meio do refreshToken válido de sua conta. 
+
+Caso não exista refreshToken, o usuário receberá aviso para vincular novamente sua conta Imou.";;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;;;;;3.0;;;"0|i02xmn:i";Izy - Cycle 24.1 Sprint 3;;;;;;;;
+Criar runner no Kubernetes;IZY-3521;31724;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;paulo.vanzo;paulo.vanzo;paulo.vanzo;20/12/24 13:48:49;20/12/24 13:52:11;06/01/25 14:56:12;;;;;0;"Utilizar ASG (Autoscaling Group), Nodegroups e chart do gitlab runner para configurar o runner no kubernetes";;paulo.vanzo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i00jk8:mi0y0002hl9";;;;;;;;;
+Adicionar autenticação diretamente no job da pipeline via variáveis de CI/CD;IZY-3520;31723;31410;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.vanzo;paulo.vanzo;paulo.vanzo;20/12/24 13:47:01;20/12/24 13:47:19;06/01/25 14:56:12;20/12/24 13:47:03;;;;0;;;paulo.vanzo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i031cc:";Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;"20/12/24 13:47:19;paulo.vanzo;Resolve problema de acesso ao registry;;;";;
+[BACKEND] Criar endpoint para edição de dispositivos (Imou);IZY-3519;31722;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;bruno.moreno;leonandro.gurgel;leonandro.gurgel;20/12/24 13:33:06;27/12/24 08:07:27;06/01/25 14:56:12;27/12/24 08:07:27;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i031c4:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[BACKEND] Criar helper para injetar o token do redis nos params antes da request;IZY-3518;31708;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;20/12/24 10:27:34;20/12/24 13:57:59;06/01/25 14:56:12;20/12/24 13:57:59;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i03190:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Corrigir typagem de retorno da requisição;IZY-3517;31707;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;20/12/24 10:27:20;20/12/24 10:31:10;06/01/25 14:56:12;20/12/24 10:31:10;FRONT;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i0318s:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Atualizar parametros na listagem de dispositivos IMOU;IZY-3516;31703;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;20/12/24 09:32:11;20/12/24 09:53:06;06/01/25 14:56:12;20/12/24 09:53:06;FRONT;;;0;Adicionar novos parametros para realizar paginação de dispositivos IMOU;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i0317w:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[BACKEND] Adicionar paginação no endpoint de sync devices;IZY-3515;31689;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;19/12/24 11:09:58;20/12/24 13:57:58;06/01/25 14:56:12;20/12/24 13:57:58;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i0314s:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Backend] Ajustar Prefixo de Mibo para IMOU;IZY-3514;31687;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;bruno.moreno;leonandro.gurgel;leonandro.gurgel;19/12/24 10:37:24;20/12/24 13:02:51;06/01/25 14:56:12;20/12/24 13:02:51;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i0314c:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Backend] Criar estrutura para salvar token no redis;IZY-3513;31675;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;18/12/24 13:09:25;19/12/24 10:46:15;06/01/25 14:56:12;19/12/24 10:46:15;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i03124:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+Analisar mudanças para utilizar runner no k8s e autoscaling group;IZY-3511;31477;31410;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.vanzo;paulo.vanzo;paulo.vanzo;11/12/24 17:19:08;20/12/24 13:37:48;06/01/25 14:56:12;20/12/24 13:37:48;;;;0;;;paulo.vanzo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i030gk:";Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;;
+Verificar viabilidade job de build usando kaniko no modelo atual;IZY-3510;31476;31410;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.vanzo;paulo.vanzo;paulo.vanzo;11/12/24 17:18:11;20/12/24 13:40:17;06/01/25 14:56:12;20/12/24 13:37:40;;;;0;;;paulo.vanzo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i030gc:";Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;"20/12/24 13:40:17;paulo.vanzo;Kaniko não pode ser utilizado hoje pelo fato de que o job entra em OOMKill pelo tamanho da imagem Java gerada.;;;";;
+[FrontEnd] Integrar drawer do dispositivo mibo com o backend;IZY-3509;31471;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;11/12/24 12:47:33;26/12/24 15:51:25;06/01/25 14:56:12;26/12/24 15:51:25;FRONT;;;0;"*[Descrição]*
+
+Ao clicar no botão de salvar, realizar requisição para atualizar o nome do dispositivo mibo para o novo nome";;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i030f8:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Abrir drawer de dispositivo mibo ao clicar no dispositivo mibo;IZY-3508;31469;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;11/12/24 12:46:30;20/12/24 10:11:02;06/01/25 14:56:12;20/12/24 10:11:02;FRONT;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i030es:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+Propor jornada do usuário para gestão de contas e vincular contas Tuya e Imou;IZY-3507;31436;;Spike;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;paulina.trojaike.labcomu;eliezio.soares;eliezio.soares;10/12/24 09:41:21;18/12/24 16:53:06;10/12/24 14:36:49;;UX/UI;;;0;"Projetar uma proposta de jornada de usuário para a funcionalidade de vinculação de contas Tuya e Imou no sistema, assegurando uma experiência do usuário consistente e intuitiva.
+ * O sistema permitirá aos usuários vincular suas contas Tuya e Imou para centralizar a gestão de dispositivos.
+ * Atualmente, não há um fluxo definido para essa funcionalidade, visto que a conta Izy Manager é a mesma conta Tuya. É necessário estruturar a jornada do usuário, desde a criação da conta Izy, a intenção de vincular contas Tuya ou IMOU, até a confirmação da integração.
+
+2.{*}Expectativa{*}:
+ *  Apresentar através de protótipos um mapeamento da experiência ideal para o usuário, considerando:
+ ** Identificação clara do ponto de partida para vincular contas (ex.: botão no dashboard, configurações do usuário, etc.).
+ ** Telas ou etapas necessárias (ex.: autenticação, permissões, status da vinculação).
+ ** Indicação de erros (ex.: falha na autenticação) e confirmações (ex.: conta vinculada com sucesso).
+ *** Recomendações de mensagens de erro e sucesso para maior clareza ao usuário.
+
+ 
+
+*Os protótipos e seus componentes devem ser revisados e aprovados pelo PO, time de design da Intelbras e equipe de desenvolvimento para validar viabilidade técnica.*";;eliezio.soares;paulina.trojaike.labcomu;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xnh:s";Izy - Cycle 24.1 Sprint 3;;;;;;"12/12/24 12:41:53;paulina.trojaike.labcomu;https://www.figma.com/design/SbiCFPyIz3VSLnH52C1onE/C%C3%B3pia---Figma-Izy-Manager?node-id=16-2&node-type=canvas&t=0QZYRpJEIn1MZucD-0;;;";"18/12/24 16:53:06;paulina.trojaike.labcomu; - Novos componentes criados
+
+ - Hide Sidebar feita
+
+ 
+
+ - Fluxo de usuário e contas em andamento
+
+ ;;;";
+Passar id do usuário durante requisição para vincular token da mibo;IZY-3506;31411;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;09/12/24 15:14:50;09/12/24 15:18:09;06/01/25 14:56:12;09/12/24 15:18:09;FRONT;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i03038:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+Resolver problema de acesso da pipeline com o registry;IZY-3505;31410;;Problema;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.vanzo;paulo.vanzo;paulo.vanzo;09/12/24 15:06:13;20/12/24 13:37:52;11/12/24 17:24:34;20/12/24 13:37:52;;;;0;"Pipeline de develop com o erro:
+unauthorized: unauthorized to access repository: smarter/smarter-frontend, action: push: unauthorized to access repository: smarter/smarter-frontend, action: push
+
+https://git.intelbras.com.br/iot-tic/izy/izy-web-frontend/-/jobs/1277906";;paulo.vanzo;;;;;;;;;;;;;;;;;;;;;;;;Impedimento;;;;;;"0|i02xmm:";Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;"11/12/24 17:14:26;paulo.vanzo;O usuário na AWS não tem acesso SSH à máquina do runner impossibilitando a alteração no runner, pode-se avaliar 2 opções, utilizar a imagem do Kaniko e passar as credenciais via pipeline, ou criar o runner diretamente no k8s e configurar scale de máquina para ele, deletando a máquina do runner.;;;";"11/12/24 17:17:33;paulo.vanzo;Começarei a análise do uso do kaniko, posteriormente, a possibilidade de utilizar o runner no k8s.;;;";
+[BACK] Criar model de token  mibo vinculado ao usuário izy;IZY-3504;31314;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;06/12/24 14:00:03;16/12/24 08:36:46;06/01/25 14:56:12;16/12/24 08:36:46;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zzo:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[BACK] Alterar o endpoint de vinculação para receber o código de validação imou;IZY-3503;31313;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;06/12/24 13:59:28;16/12/24 08:36:53;06/01/25 14:56:12;16/12/24 08:36:53;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zzg:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Modificar modal de vincular conta para vincular token;IZY-3502;31308;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;06/12/24 10:28:39;06/12/24 15:19:46;06/01/25 14:56:12;06/12/24 15:19:46;FRONT;;;0;"*[Descrição]*
+
+Ao vincular conta na Mibo, o usuário será redirecionado novamente para o IzyManager para finalizar o vinculo da conta. 
+
+ 
+
+*[Objetivo]*
+
+Atualizar modal de vincular conta para aparecer quando o usuário retornar ao IzyManager e escrever um apelido e email para o novo token. E atualizar parametros do endpoint de vincular conta para passar o email, apelido e code.";;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zyc:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Redirecionar para tela de login mibo ao clicar em vincular;IZY-3501;31307;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;06/12/24 10:24:05;06/12/24 11:44:55;06/01/25 14:56:12;06/12/24 11:44:55;FRONT;;;0;"*[Descrição]*
+
+Quando o usuário for vincular uma conta mibo, ele deverá clicar no botão de vincular conta no menu de usuário e ser redirecionado para tela de login da mibo, onde será feito o vinculo
+
+ 
+
+*[Objetivo]*
+
+Alterar comportamento do botão de vincular no menu de usuario para redirecionar para tela Mibo em vez de abrir o modal de vincular conta";;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zy4:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Backend] Criar Client Rest para Mibo API;IZY-3500;31295;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;05/12/24 15:07:48;06/12/24 10:54:34;06/01/25 14:56:12;06/12/24 10:54:34;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zvo:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Backend] Criar endpoint para sync de devices pela Mibo;IZY-3499;31294;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;05/12/24 15:07:17;16/12/24 08:48:38;06/01/25 14:56:12;16/12/24 08:48:38;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zvg:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Backend] Criar endpoint para callback da IMOU;IZY-3498;31293;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.lopes.013;leonandro.gurgel;leonandro.gurgel;05/12/24 15:06:24;16/12/24 08:37:19;06/01/25 14:56:12;16/12/24 08:37:19;;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02zv8:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FRONTEND] Adicionar botão de sincronizar na tela de todos os dispositivos;IZY-3497;31086;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;29/11/24 11:03:22;29/11/24 13:26:05;01/12/24 15:18:21;29/11/24 13:26:05;FRONT;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02z50:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[DOC] Validar campo de nome do dispositivo;IZY-3496;31081;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;aamedeiros;aamedeiros;aamedeiros;29/11/24 08:35:00;29/11/24 08:37:35;06/01/25 14:56:12;29/11/24 08:37:35;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02z3w:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[DOC] Atualizar suíte no QAP  - Criar conta ;IZY-3495;31080;;Tarefa;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;aamedeiros;aamedeiros;aamedeiros;29/11/24 08:09:22;27/12/24 13:55:59;18/12/24 14:30:41;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;Impedimento;;;3.0;;;"0|i02xnh:r";Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;"27/12/24 13:55:59;aamedeiros;(flag) Marcação adicionada
+
+Pausada devido a Atuação em outras prioridades.;;;";;
+Mover dispositivo entre locais em um empreendimento;IZY-3494;31073;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;28/11/24 14:47:46;12/12/24 13:46:53;12/12/24 10:16:27;;;;;0;;;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02wsc:y";Backlog 2024;;;;;;;;
+[FRONT] Nome do dispositivo extrapola limites do card;IZY-3493;31067;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;28/11/24 12:39:08;28/11/24 12:44:50;06/01/25 14:56:12;;;;;0;"Cenário:
+ * Estar na tela de todos os dispositivos
+ * Clicar em um dispositivo
+ * Editar o nome inserindo um nome grande (50 caracteres)
+ * Salvar edição
+
+Após isso, o nome do dispositivo passa do limite do card (no qual ele faz parte) continuando na tela conforme mostrado  na imagem abaixo:
+
+!editar nome.png|thumbnail!";;aamedeiros;;;;;;;;;;;"28/11/24 12:42:57;aamedeiros;editar nome.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22438/editar+nome.png";;;;;;;;;;;;;;;;;;;"0|i02wsd:";Backlog 2024;;;;;;;;
+[TE] Sincronizar dispositivos da IMOU;IZY-3492;31027;31004;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;26/11/24 13:38:36;26/11/24 13:38:36;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yt0:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[TF] Remover dispositivo IMOU;IZY-3491;31026;30709;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;26/11/24 13:36:56;26/11/24 13:36:56;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yss:";Izy - Cycle 24.1 Sprint 1;Backlog 2024;;;;;;;
+[DOC] Remover dispositivo IMOU;IZY-3490;31025;30709;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;26/11/24 13:36:35;26/11/24 13:36:35;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ysk:";Izy - Cycle 24.1 Sprint 1;Backlog 2024;;;;;;;
+[TF] Aplicar configuração no dispositivo MIS-1003;IZY-3489;31024;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;26/11/24 13:35:35;26/11/24 13:35:35;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ysc:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[DOC] Aplicar configuração no dispositivo MIS-1003;IZY-3488;31023;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;26/11/24 13:34:40;26/11/24 13:34:40;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ys4:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[TE] Vincular conta mibo;IZY-3487;31022;30708;Sub-tarefa-padrão;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;aamedeiros;aamedeiros;aamedeiros;26/11/24 13:30:58;27/12/24 16:35:58;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;"27/12/24 08:33:04;aamedeiros;Gravar_2024_12_27_07_39_17_985.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22821/Gravar_2024_12_27_07_39_17_985.mp4";;;;;;;;;;;;;Impedimento;;;;;;"0|i02yrw:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;"27/12/24 08:32:48;aamedeiros;*Teste: {color:#ff0000}NOK{color}*
+*Versão:* dev-3.0.0
+
+Ao clicar para vincular conta, o usuário é redirecionado para tela de empreendimentos, conforme mostrado no vídeo abaixo.
+
+[^Gravar_2024_12_27_07_39_17_985.mp4];;;";"27/12/24 08:39:23;aamedeiros;(flag) Marcação adicionada
+
+A espera de IZY-3524
+
+A espera de IZY-3525 ;;;";"27/12/24 16:35:58;aamedeiros;(flag) Marcação adicionada
+
+A espera de IZY-3527;;;"
+[Frontend] Realizar integração do modal com o back;IZY-3486;31021;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;26/11/24 10:54:26;29/11/24 17:43:44;06/01/25 14:56:12;29/11/24 17:43:44;FRONT;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yro:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Frontend] Criar modal de vinculo com conta Mibo;IZY-3485;31020;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;26/11/24 10:52:57;28/11/24 13:21:26;06/01/25 14:56:12;28/11/24 13:21:26;FRONT;;;0;Modal deverá ter os campos de email e senha;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yrg:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Frontend] Adicionar botão no menu do usuário para vincular conta Mibo;IZY-3484;31019;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;26/11/24 10:52:01;28/11/24 14:10:36;06/01/25 14:56:12;28/11/24 14:10:36;FRONT;;;0;"Ao clicar no botão, deverá abrir o modal para vincular com conta mibo";;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yr8:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FRONT] Redirecionar usuário logado quando ele acessar o sistema via URL;IZY-3483;31009;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;25/11/24 13:43:36;25/11/24 14:02:27;06/01/25 14:56:12;;;;;0;"Quando o usuário está logado no sistema e abre outra guia, ao acessar a URL de login (que é a mais comum de estar salva no navegador) é mostrado a página de login novamente para o usuário se autenticar ao invés da tela de empreendimentos. Tal problema é mostrado no vídeo abaixo.
+
+[^Gravar_2024_11_25_13_05_15_389.mp4]";;aamedeiros;;;;;;;;;;;"25/11/24 13:46:22;aamedeiros;Gravar_2024_11_25_13_05_15_389.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22404/Gravar_2024_11_25_13_05_15_389.mp4";;;;;;;;;;;;;;;;;;;"0|i02wse:";Backlog 2024;;;;;;;;
+Sincronizar dispositivos Mibo Smart;IZY-3482;31004;;História;Needs Test;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;uriel.lira;paulo.lopes.013;paulo.lopes.013;25/11/24 08:26:30;27/12/24 16:37:02;25/11/24 10:31:21;;;;;0;"*Como* administrador ou operador
+*Quero* sicronizar meus dispositivos MIBO na plataforma
+*Para* visualizá-los na plataforma e ver suas propriedades.
+
+ 
+
+Esta atividade permite que o usuário sincronize os dispositivos adicionados em sua conta Mibo Smart com a plataforma IzyManager. Ao realizar a sincronização, os dispositivos Mibo cadastrados na conta Mibo Smart poderão ser gerenciados diretamente pela plataforma Izy.
+
+A estrutura organizacional é independente, então o usuário será responsável por decidir onde os dispositivos sincronizados estão localizados independente de como se dispõe para a Mibo Smart.
+
+ 
+
+Critérios de Aceitação:
+ * Ao clicar no botão sincronizar o sistema deve buscar os dispositivos existentes na conta do usuário e exibi-los na tela do Manager.
+
+ 
+
+!image-2024-11-25-10-30-56-997.png|width=555,height=230!";;aamedeiros;paulo.lopes.013;;;;;;;;;;"25/11/24 10:30:57;eliezio.soares;image-2024-11-25-10-30-56-997.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22401/image-2024-11-25-10-30-56-997.png";;;;;;;;;;;;;Impedimento;;;10.0;;;"0|i02xn8:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;"27/12/24 08:44:57;aamedeiros;(flag) Marcação adicionada
+
+A espera de IZY-3416;;;";"27/12/24 16:37:02;aamedeiros;(flag) Marcação adicionada
+
+A espera de IZY-3416;;;";
+[DOC] Editar dispositivo Imou;IZY-3480;30892;30710;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;22/11/24 08:01:12;27/12/24 10:56:49;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yik:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[TF] Editar dispositivo que fica offline logo antes de de salvar o nome;IZY-3479;30867;30710;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;19/11/24 13:54:42;27/12/24 10:56:33;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yd0:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[TF] Editar dispositivo offline;IZY-3478;30866;30710;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;19/11/24 13:53:46;27/12/24 10:57:03;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ycs:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[TF] Editar dispositivo Imou;IZY-3477;30865;30710;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;aamedeiros;aamedeiros;aamedeiros;19/11/24 13:53:12;27/12/24 10:58:26;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yck:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[DOC] Editar dispositivo que fica offline logo antes de de salvar o nome;IZY-3476;30864;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;aamedeiros;aamedeiros;aamedeiros;19/11/24 13:50:15;27/12/24 10:57:44;06/01/25 14:56:12;04/12/24 09:07:50;QA;;;0;"Quando acessa a tela de edição (estando o dispositivo online), altera-se o nome e clica em salvar, não deve ser possível finalizar a ação e o usuário deve receber um toast de erro pois a ação não pode ser concretizada na nuvem.";;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ycc:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[DOC] Editar dispositivo offline;IZY-3475;30863;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;aamedeiros;aamedeiros;aamedeiros;19/11/24 13:47:35;27/12/24 10:57:31;06/01/25 14:56:12;04/12/24 10:31:19;QA;;;0;"Quando o dispositivo está offline, a edição do nome deve ser bloqueado.";;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yc4:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[DOC] Alterar documentação de editar dispositivo Tuya;IZY-3474;30862;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;aamedeiros;aamedeiros;aamedeiros;19/11/24 13:46:35;27/12/24 10:57:19;06/01/25 14:56:12;29/11/24 09:09:56;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ybw:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[TE] Criar novo usuário no empreendimento (tela de usuários);IZY-3473;30861;30659;Sub-tarefa-bug;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;19/11/24 13:37:29;19/11/24 13:37:29;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ybo:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[TE] Cadastrar novo usuário (tela de login);IZY-3472;30860;30659;Sub-tarefa-bug;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;19/11/24 13:36:24;19/11/24 13:36:24;06/01/25 14:56:12;;QA;;;0;;;aamedeiros;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02ybg:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FRONT] Não é possível cadastrar usuário;IZY-3471;30859;30659;Sub-tarefa-bug;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;uriel.lira;aamedeiros;aamedeiros;19/11/24 13:34:42;28/11/24 11:42:56;06/01/25 14:56:12;;FRONT;;;0;"*[Descrição]*
+
+Não está sendo possível criar uma conta nova de usuário devido a um problema no endpoint para validar email do usuário.
+
+ 
+
+*[Objetivo]*
+
+Remover a chamada de validação de email no front para tentar criar um novo usuário";;aamedeiros;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02yb8:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;"28/11/24 11:42:56;uriel.lira;Não é possível apenas remover o endpoint de validar email. Foi verificado que é necessário o código de validação para criar um usuário pois o mesmo é criado diretamente na tuya. Ao remover o endpoint, o sistema apenas não faz mais nada.
+
+Verificar o que deverá ser feito;;;";;
+Mapear riscos sobre loadbalancer;IZY-3470;30856;;Tarefa;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;paulo.vanzo;paulo.vanzo;paulo.vanzo;19/11/24 11:41:24;11/12/24 19:01:36;06/01/25 14:56:12;;DEVOPS;;;0;"!image-2024-11-19-11-29-03-953.png!
+
+O loadbalancer de produção está quebrado, aparentemente a versão está incompatível com o EKS, é preciso verificar o problema e os possíveis riscos";;paulo.vanzo;;;;;;;;;;;"19/11/24 11:29:04;paulo.vanzo;image-2024-11-19-11-29-03-953.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22304/image-2024-11-19-11-29-03-953.png";;;;;;;;;;;;;;;;;;;"0|i00jk8:mi0y0002hkfa8zt";;;;;;;"22/11/24 18:16:50;paulo.vanzo;Consegui reverter o problema do LoadBalancer de Dev, vou agora instalar via helm para que problemas de gerenciamento de versões não venha a acontecer tanto.
+
+Aí já aproveito e valido se o LoadBalancer será recriado na execução do processo, mapeando possíveis riscos.;;;";"03/12/24 14:10:28;paulo.vanzo;Para o LoadBalancer funcionar precisa estar na versão 2.7.2, para subir para a 2.10.0 é preciso atualizar o EKS. O Helm para instalar os CRDs precisa ser executado com o helm install e os CRDs desinstalados antes.
+
+É possível que haja indisponibilidade entre a deleção dos CRDs até a instalação do chart.;;;";
+[FrontEnd] Receber status do dispositivo IMOU pelo EventSource e atualizar dispositivo;IZY-3469;30852;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:54:25;19/11/24 09:54:25;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y9o:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Enviar comandos de dispositivos IMOU pela icone do dispositivo na aba de Dispositivos na tela de dashboard;IZY-3468;30851;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:53:47;19/11/24 09:53:47;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y9g:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Enviar comandos de dispositivos IMOU pela icone do dispositivo na tela de dashboard;IZY-3467;30850;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:53:34;19/11/24 09:53:34;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y98:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Enviar comandos de dispositivos IMOU pela icone do dispositivo na tela de todos os dispositivos;IZY-3466;30849;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:53:25;19/11/24 09:53:25;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y90:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Enviar comandos de dispositivos IMOU pela tela generica de dispositivos;IZY-3465;30848;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:52:42;19/11/24 09:52:42;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y8s:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Remover dispositivo IMOU pela tela de todos os dispositivos;IZY-3464;30847;30709;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:50:41;19/11/24 09:50:41;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y8k:";Izy - Cycle 24.1 Sprint 1;Backlog 2024;;;;;;;
+[FrontEnd] Permitiro realocar dispositivos IMOU pela aba de dispositivos na tela de dashboard;IZY-3463;30846;31073;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:47:55;03/12/24 18:17:33;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y8c:";Backlog 2024;;;;;;;;
+[FrontEnd] Permitir realocar dispositivos IMOU pela tela Todos os Dispositivos;IZY-3462;30845;31073;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:47:31;28/11/24 15:02:33;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y84:";Backlog 2024;;;;;;;;
+[FrontEnd] Mostrar dispositivos IMOU na aba de dispositivos da Dashboard;IZY-3461;30844;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:46:50;29/11/24 11:04:42;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y7w:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Criar tela de configurações para dispositivos IMOU;IZY-3460;30840;30710;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;19/11/24 09:41:12;11/12/24 12:45:23;06/01/25 14:56:12;11/12/24 12:45:23;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y70:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[FrontEnd] Mostrar dispositivo IMOU na tela de dashboard;IZY-3459;30835;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;uriel.lira;uriel.lira;19/11/24 09:38:18;29/11/24 11:04:52;06/01/25 14:56:12;;;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y5w:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+[FrontEnd] Mostrar dispositivo IMOU na tela de todos os dispositivos;IZY-3458;30834;31004;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;uriel.lira;uriel.lira;19/11/24 09:38:08;18/12/24 12:56:42;06/01/25 14:56:12;18/12/24 12:56:42;FRONT;;;0;;;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y5o:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[Devops] Validar Gitflow e Estruturar GitSemantics;IZY-3457;30832;;Tarefa;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.lopes.013;paulo.lopes.013;paulo.lopes.013;19/11/24 08:51:49;27/12/24 14:09:09;19/11/24 11:24:49;20/12/24 13:40:34;;;;0;"*[https://www.notion.so/Padr-es-de-Git-no-Izy-Manager-b4f4da98755a492bb5c44c65a563410f]*
+
+ ";;paulo.lopes.013;paulo.vanzo;;;;;;;;;;;;;;;;;;;;;;;;;;8.0;;;"0|i02xmn:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;"05/12/24 14:26:11;paulo.vanzo;Esperando desbloqueio do acesso Git, a priori o regex e as alterações da pipeline já estão prontas para receber o fluxo novo.;;;";;
+[Devops] Prover ambiente de Testes;IZY-3456;30831;;Tarefa;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;paulo.vanzo;paulo.lopes.013;paulo.lopes.013;19/11/24 08:49:48;16/12/24 08:51:51;03/12/24 11:06:38;;;;;0;"Disponibilizar ambiente de testes funcional para utilização do time.
+
+Erro no backend em anexo:";;paulo.lopes.013;;;;;;;;;;;"05/12/24 14:27:05;paulo.vanzo;image-2024-12-05-14-25-08-291.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22546/image-2024-12-05-14-25-08-291.png";;;;;;;;;;;;;;;;5.0;;;"0|i02xmo:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[DEPRECATED][FrontEnd] Validar com Mibo Smart o processo de autenticação da subaccount do usuário Izy Manager para IMOU;IZY-3455;30830;;Tarefa;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;;paulo.lopes.013;paulo.lopes.013;19/11/24 08:47:40;29/11/24 11:34:27;06/01/25 14:56:12;29/11/24 11:33:51;;;;0;;;paulo.lopes.013;;;;;;;;;;;;;;;;;;;IZY-3410;;;;;;;;;;;"0|i02y4s:";;;;;;;;;
+[FrontEnd] Criar suporte para  Funcionalidade e realizar Ajustes necessários;IZY-3453;30828;30709;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;paulo.lopes.013;paulo.lopes.013;19/11/24 08:45:39;19/11/24 08:45:39;06/01/25 14:56:12;;;;;0;;;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y4c:";Izy - Cycle 24.1 Sprint 1;Backlog 2024;;;;;;;
+[BackEnd] Desvincular dispositivo do Izy Manager;IZY-3452;30827;30709;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;paulo.lopes.013;paulo.lopes.013;19/11/24 08:44:18;19/11/24 08:44:18;06/01/25 14:56:12;;;;;0;"*Pontos a confirmar:*
+ * *Desvincular um dispositivo apenas da subaccount do usuário ou da account do admin?* (Desvinculando do admin o usuário não verá mais o dispositivo em outros aplicativos que utilizem a mesma conta).";;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y44:";Izy - Cycle 24.1 Sprint 1;Backlog 2024;;;;;;;
+[FrontEnd] Validar reaproveitamento da Tela de dispositivo Genérico.;IZY-3451;30826;30711;Sub-tarefa-padrão;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;paulo.lopes.013;paulo.lopes.013;19/11/24 08:40:10;28/11/24 09:58:02;06/01/25 14:56:12;;;;;0;"h4. *Objetivo*
+
+Analisar se a tela de dispositivo genérico já existente para TUYA pode ser reutilizada para dispositivos IMOU.";;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y3w:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+Discovery de dispositivos IMOU já vinculados à uma sub account de usuário.;IZY-3450;30825;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;paulo.lopes.013;paulo.lopes.013;19/11/24 08:36:05;19/11/24 08:36:32;06/01/25 14:56:12;;;;;0;;;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xni:";Backlog 2024;;;;;;;;
+[BackEnd] Viabilizar o fluxo de autenticação e registro de contas Mibo;IZY-3445;30820;30708;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;paulo.lopes.013;paulo.lopes.013;19/11/24 08:14:29;04/12/24 14:57:20;06/01/25 14:56:12;04/12/24 14:57:20;;;;0;"h4. *Objetivo*
+
+Permitir que usuário tenha sua conta Mibo criada ou vinculada a uma conta existente no Izy Manager.";;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02y2s:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[QA] Atualizar suite de testes - Login;IZY-3444;30802;;Tarefa;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;aamedeiros;eliezio.soares;eliezio.soares;18/11/24 10:32:47;26/11/24 13:44:31;19/11/24 11:24:18;26/11/24 13:44:31;QA;;;0;"É necessário ajustar documentações para padronizá-las, bem como aprovar e publicar todas as documentações da suíte além de criar a suíte no QAP no espaço de suítes de testes do projeto Smarter.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;3.0;;;"0|i02xys:";Izy - Cycle 24.1 Sprint 1;;;;;;;;
+Erro ao criar novos usuários ao empreendimento;IZY-3443;30735;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:14:05;13/11/24 21:14:05;06/01/25 14:56:12;;;;;0;;;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xt8:";Backlog 2024;;;;;;;;
+Espaços Criados Dentro de um Empreendimento Desaparecem Após Criação;IZY-3442;30734;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:13:49;13/11/24 21:13:49;13/11/24 21:13:49;;;;;0;;;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xt0:";Backlog 2024;;;;;;;;
+Link para os Termos de Uso Ausente na Página de Criação de Conta;IZY-3441;30733;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:11:54;13/11/24 21:12:40;13/11/24 21:12:40;;FRONT;;;0;"Na página de criação de conta do Izy Manager, não há um link para os Termos de Uso da plataforma. Esse problema impede que o usuário leia e revise os Termos de Uso antes de aceitar, o que pode gerar problemas de conformidade e falta de transparência.
+
+ 
+
+!image (5).png!";;eliezio.soares;;;;;;;;;;;"13/11/24 21:12:36;eliezio.soares;image (5).png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22231/image+%285%29.png";;;;;;;;;;;;;;;;;;;"0|i02xss:";Backlog 2024;;;;;;;;
+QR Code da Página de Recuperação de Senha Não Direciona ao Download do App;IZY-3440;30732;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:11:07;13/11/24 21:11:07;13/11/24 21:11:07;;FRONT;;;0;"O QR code exibido na página de recuperação de senha para download do aplicativo não está funcionando. Devido à expiração do plano de atualização anual da Tuya, o QR code não direciona os usuários para as lojas de aplicativos (Android e iOS) e não permite o download direto do app.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xsk:";Backlog 2024;;;;;;;;
+"Exibir Status ""Offline"" para Dispositivos na Automação";IZY-3439;30731;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:09:53;13/11/24 21:09:53;13/11/24 21:09:53;;BACK;FRONT;;0;"*Como* usuário Izy Manager
+*Quero* ser notificado quando um dos dispositivos em uma automação estiver offline
+*Para* poder identificar rapidamente problemas de conectividade e resolver falhas que possam afetar as automações configuradas
+h4. Critérios de Aceitação:
+ # {*}Exibição de Status Offline na Interface de Automação{*}:
+
+ ** O sistema deve indicar claramente na interface de automação quando um dispositivo estiver offline, exibindo um ícone, texto ou etiqueta ""Offline"" ao lado do dispositivo.
+ ** O status ""Offline"" deve ser atualizado em tempo real ou de acordo com a frequência de verificação da conectividade.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xsc:";Backlog 2024;;;;;;;;
+Implementar tradução para os comandos da automação;IZY-3438;30730;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:08:12;13/11/24 21:12:25;13/11/24 21:12:25;;FRONT;;;0;"*Como* usuário Izy Manager
+*Quero* visualizar os comandos e status das automações em português
+*Para* facilitar a compreensão das mensagens e interações com a interface, sem a necessidade de interpretar termos em inglês
+
+ 
+
+!image (4).png|width=376,height=147!";;eliezio.soares;;;;;;;;;;;"13/11/24 21:12:18;eliezio.soares;image (4).png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22230/image+%284%29.png";;;;;;;;;;;;;;;;;;;"0|i02xs4:";Backlog 2024;;;;;;;;
+Implementar a Opção de Dark Mode (Modo Escuro);IZY-3437;30729;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:05:45;13/11/24 21:05:45;13/11/24 21:05:45;;;;;0;"*Como* usuário do Izy Manager
+*Quero* ter a opção de habilitar o modo escuro na interface do sistema
+*Para* melhorar o conforto visual em ambientes com pouca luz e reduzir o cansaço ocular durante o uso prolongado
+h4. Critérios de Aceitação:
+ * O sistema deve permitir que o usuário alterne facilmente entre o modo claro e o modo escuro nas configurações de aparência.
+ * A mudança deve ser instantânea, com a interface visualmente adaptada para o modo selecionado.
+ * O sistema deve armazenar a preferência de modo (claro ou escuro) para que seja automaticamente aplicada ao acessar a plataforma em sessões futuras.
+ * A preferência deve ser salva de forma independente para cada usuário.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xrw:";Backlog 2024;;;;;;;;
+[FRONT] Campo com a informação incompleta no campo de pesquisa;IZY-3436;30728;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:02:56;13/11/24 21:03:37;13/11/24 21:03:37;;FRONT;;;0;"!image (3).png|width=615,height=85!";;eliezio.soares;;;;;;;;;;;"13/11/24 21:03:34;eliezio.soares;image (3).png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22229/image+%283%29.png";;;;;;;;;;;;;;;;;;;"0|i02xro:";Backlog 2024;;;;;;;;
+[FRONT] Ajustar nome da plataforma na seleção do empreendimento;IZY-3435;30727;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:02:19;13/11/24 21:03:24;13/11/24 21:03:24;;;;;0;"!image (2).png|width=406,height=116!";;eliezio.soares;;;;;;;;;;;"13/11/24 21:03:18;eliezio.soares;image (2).png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22228/image+%282%29.png";;;;;;;;;;;;;;;;;;;"0|i02xrg:";Backlog 2024;;;;;;;;
+Recuperar Acesso ao Empreendimento em Caso de E-mail Inacessível;IZY-3434;30726;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 21:01:31;13/11/24 21:01:31;13/11/24 21:01:31;;;;;0;"*Como* usuário Izy Manager
+*Quero* dispor de uma forma alternativa para recuperar o acesso ao empreendimento caso o e-mail cadastrado esteja inacessível
+*Para* garantir a continuidade da administração e acesso ao sistema mesmo em situações de perda de acesso ao e-mail principal";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xr8:";Backlog 2024;;;;;;;;
+Aprimorar a validação do e-mail na criação de um empreendimento.;IZY-3433;30725;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:54:11;13/11/24 20:54:11;13/11/24 20:54:12;;;;;0;"Fortalecer a validação do campo de e-mail no formulário de criação de empreendimentos, garantindo que apenas endereços válidos e no formato correto sejam aceitos.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xr0:";Backlog 2024;;;;;;;;
+"Na criação de um novo empreendimento, validar o campo CPF e CNPJ";IZY-3432;30724;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:53:11;13/11/24 20:53:11;06/01/25 14:56:12;;;;;0;"O sistema deve validar automaticamente os campos de CPF e CNPJ ao criar um novo empreendimento para garantir que os dados fornecidos sejam válidos e estejam no formato correto, evitando erros e inconsistências.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xqs:";Backlog 2024;;;;;;;;
+Atualizar os termos de uso do sistema;IZY-3431;30723;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:49:57;13/11/24 20:49:57;06/01/25 14:56:12;;;;;0;"Revisar e atualizar os Termos de Uso do sistema para refletir as políticas mais recentes, novas funcionalidades, requisitos de conformidade e garantir a clareza e transparência para os usuários.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xqk:";Backlog 2024;;;;;;;;
+[DevOps] Atualizar os Componentes de Infraestrutura do Sistema;IZY-3430;30722;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:45:12;13/11/24 20:47:03;06/01/25 14:56:12;;BACK;FRONT;;0;"{*}Objetivo{*}:
+Realizar a atualização dos componentes críticos de infraestrutura, incluindo o Kubernetes, para garantir a segurança, desempenho e compatibilidade do sistema com versões mais recentes.
+h4. Critérios de Aceitação:
+ # {*}Planejamento da Atualização{*}:
+
+ ** Verificar a versão atual dos componentes (ex.: Kubernetes, Docker, etc.) e identificar a versão mais recente e estável para atualização.
+ ** Documentar os pré-requisitos e as etapas de atualização para cada componente no Notion, incluindo possíveis dependências e impactos na infraestrutura.
+ # {*}Realização da Atualização do Kubernetes{*}:
+
+ ** Atualizar o Kubernetes para a versão recomendada, garantindo a compatibilidade com os demais serviços e configurações do sistema.
+ ** Verificar a configuração de todos os pods, namespaces e serviços para assegurar que funcionem corretamente na nova versão.
+ # {*}Testes de Validação Pós-Atualização{*}:
+
+ ** Realizar testes de validação após a atualização, incluindo:
+ *** Verificação do funcionamento dos serviços e pods no Kubernetes.
+ ** Monitorar logs e métricas para detectar qualquer anomalia ou degradação de desempenho após a atualização.
+ # {*}Plano de Contingência{*}:
+
+ ** Preparar um plano de rollback caso ocorram problemas críticos durante a atualização, documentando as etapas necessárias para retornar à versão anterior com segurança.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-193;;;;;;;;;;;"0|i02xnw:";Backlog 2024;;;;;;;;
+Possibilidade de Criar Alertas Críticos no Sistema;IZY-3429;30721;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:39:58;13/11/24 20:45:38;06/01/25 14:56:12;;BACK;FRONT;;0;"*Como* usuário Izy Manager
+*Quero* configurar alertas críticos para eventos específicos no sistema
+*Para* ser imediatamente notificado sobre situações de emergência, como ativação de dispositivos de segurança ou detecção de fumaça
+h4. Critérios de Aceitação:
+ # {*}Configuração de Tipos de Alerta Crítico{*}:
+
+ ** O sistema deve permitir ao usuário configurar alertas para eventos críticos, como:
+ *** Ativação de dispositivos de segurança (ex.: alarme disparado).
+ *** Detecção de fumaça ou presença de gases perigosos.
+ *** Entrada ou saída não autorizada de pessoas em áreas restritas.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xqc:";Backlog 2024;;;;;;;;
+Adicionar ações relacionadas ao empreendimento nas notificações;IZY-3428;30720;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:36:17;13/11/24 20:45:44;06/01/25 14:56:12;;BACK;FRONT;;0;"*Como* usuário Izy Manager
+*Quero* receber notificações sobre ações importantes relacionadas ao empreendimento
+*Para* estar sempre atualizado sobre adições ou remoções de usuários, criação de espaços e mudanças nos dispositivos
+h4. Critérios de Aceitação:
+ # {*}Notificação de Adição/Remoção de Usuários{*}:
+
+ ** O sistema deve enviar uma notificação ao administrador quando um novo usuário for adicionado ou removido do empreendimento.
+ ** A notificação deve incluir informações relevantes, como o nome e o papel do usuário adicionado ou removido.
+ # {*}Notificação de Criação de Novos Espaços e Locais{*}:
+
+ ** Sempre que um novo espaço ou local for criado dentro do empreendimento, o sistema deve notificar o administrador.
+ ** A notificação deve especificar o nome e a localização do novo espaço ou local para facilitar o acompanhamento.
+ # {*}Notificação de Adição/Remoção de Dispositivos{*}:
+
+ ** O sistema deve enviar notificações quando dispositivos forem adicionados ou removidos do empreendimento.
+ ** A notificação deve incluir o tipo, nome e localização do dispositivo para rápida identificação.
+ # {*}Configuração de Preferências de Notificação{*}:
+
+ ** Deve ser possível configurar as preferências de notificação para cada tipo de ação (ex.: optar por receber apenas notificações sobre dispositivos ou usuários).
+ ** O sistema deve permitir o ajuste das preferências diretamente na interface de configurações de notificações.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xq4:";Backlog 2024;;;;;;;;
+Alterar avatar do usuário;IZY-3427;30719;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:32:34;13/11/24 20:45:54;06/01/25 14:56:12;;BACK;FRONT;;0;"*Como* usuário Izy Manager
+*Quero* ter a opção de alterar meu avatar na plataforma
+*Para* personalizar minha conta e facilitar minha identificação visual no sistema
+h4. Critérios de Aceitação:
+ # {*}Upload de Imagem{*}:
+
+ ** O usuário deve poder fazer upload de uma imagem a partir de seu dispositivo para definir como avatar.
+ ** A imagem deve ser redimensionada automaticamente para se ajustar ao formato de avatar, mantendo uma qualidade visual adequada.
+ # {*}Escolha de Avatares Padrão{*}:
+
+ ** Além do upload, o sistema deve oferecer uma seleção de avatares padrão para o usuário escolher, caso não queira fazer o upload de uma imagem própria.
+ # {*}Mensagens de Sucesso e Erro{*}:
+
+ ** Ao concluir o processo, o sistema deve exibir uma mensagem de confirmação informando que o avatar foi alterado com sucesso.
+ ** Em caso de erro (ex.: tamanho de arquivo excedido, formato inválido), o sistema deve notificar o usuário e fornecer orientações para corrigir o problema.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xpw:";Backlog 2024;;;;;;;;
+Possibilidade de ativar separadamente as teclas dos dispositivos contendo mais de uma tecla diretamente na dashboard;IZY-3426;30718;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:26:58;13/11/24 20:45:58;06/01/25 14:56:12;;BACK;FRONT;;0;"*Como* usuário Izy Manager
+*Quero* ativar e desativar teclas específicas de dispositivos com múltiplas teclas diretamente no dashboard
+*Para* controlar individualmente cada tecla sem precisar acessar a página detalhada do dispositivo
+h4. Critérios de Aceitação:
+ # *Exibição e* *Controle Individual* {*}de Teclas no Dashboard{*}:
+
+ ** O sistema deve exibir, no dashboard, uma interface para cada tecla dos dispositivos com múltiplas teclas (ex.: teclas 1, 2, 3).
+ ** Cada tecla deve ser claramente identificada e acessível para controle direto.
+ ** O usuário deve poder ativar ou desativar cada tecla separadamente diretamente no dashboard.
+ ** A ação de ligar ou desligar uma tecla deve refletir imediatamente o estado atualizado no dashboard.
+ # {*}Feedback de Ação{*}:
+
+ ** Ao ativar ou desativar uma tecla, o sistema deve fornecer feedback visual, como uma mudança de cor ou um ícone que indique o estado atual (ativado/desativado).
+ ** Em caso de erro ou falha na ativação/desativação, o sistema deve exibir uma mensagem de erro com instruções para tentar novamente.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xpo:";Backlog 2024;;;;;;;;
+Criação de automações com o controlador infra vermelho - MCR 1001 ou Izy Connect;IZY-3425;30717;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:22:55;13/11/24 20:22:55;06/01/25 14:56:12;;BACK;FRONT;;0;"*Como* usuário Izy Manager
+*Quero* configurar automações usando o controlador infravermelho MCR 1001 ou Izy Connect
+*Para* controlar remotamente dispositivos compatíveis, como TVs e aparelhos de ar-condicionado, e automatizar ações específicas.
+h4. Critérios de Aceitação:
+ # {*}Configuração de Comandos para Dispositivos Infravermelho{*}:
+
+ ** O sistema deve permitir que o usuário selecione o controlador infravermelho (MCR 1001 ou Izy Connect) e associe comandos específicos para dispositivos compatíveis, como ligar, desligar, ajustar volume ou temperatura.
+ # {*}Criação de Regras de Automação{*}:
+
+ ** O usuário deve poder criar automações com base em condições (ex.: hora do dia, status de outros dispositivos) que disparem comandos do controlador infravermelho.
+ ** As automações devem permitir múltiplas condições e ações, como ligar um aparelho de ar-condicionado, ou definir uma temperatura específica ao detectar presença no ambiente.
+ ** A interface deve guiar o usuário na configuração das automações, oferecendo opções pré-definidas para os comandos mais comuns e instruções claras para personalizações.
+ ** Incluir feedback visual indicando o sucesso na configuração dos comandos e automações.
+ # {*}Notificações e Logs de Execução{*}:
+
+ ** O usuário deve poder receber notificações de sucesso ou erro para cada automação executada, com registro no histórico do Izy Manager.
+ ** Registrar logs para acompanhar o histórico de execuções das automações.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xpg:";Backlog 2024;;;;;;;;
+Enviar e-mail na criação de conta ao usuário ao adiciona-lo à um empreendimento;IZY-3424;30716;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:16:15;13/11/24 20:16:38;06/01/25 14:56:12;;;;;0;;;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;Impedimento;;;;;;"0|i02xp8:";Backlog 2024;;;;;;"13/11/24 20:16:38;eliezio.soares;(flag) Marcação adicionada
+
+É necessário entender melhor o fluxo das ações.;;;";;
+Verificação de Complexidade Mínima da Senha na Criação de Usuário de Empreendimento;IZY-3423;30715;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:11:19;13/11/24 20:14:22;06/01/25 14:56:12;;;;;0;"O sistema deve exigir uma senha com critérios mínimos de segurança ao criar uma nova conta de usuário
+*Para* garantir que todas as contas sejam protegidas por senhas fortes, reduzindo riscos de segurança
+h4. Critérios de Aceitação:
+ # {*}Requisitos de Complexidade da Senha{*}:
+
+ ** A senha deve atender a requisitos mínimos, e.g.:
+ *** Pelo menos 8 caracteres.
+ *** No mínimo uma letra maiúscula, uma letra minúscula, um número e um caractere especial (ex.: @, #, $).
+ ** Exibir uma mensagem de confirmação ao usuário ao criar a conta com uma senha válida.
+ # {*}Validação em Tempo Real{*}:
+
+ ** Ao digitar a senha, o sistema deve validar em tempo real cada critério de complexidade, com feedback visual (ex.: um ""check"" ao lado de cada requisito atendido).
+ # {*}Documentação e Conformidade{*}:
+
+ ** Documentar as políticas de complexidade no Notion para referência futura e conformidade com padrões de segurança.";;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;Impedimento;;;;;;"0|i02xp0:";Backlog 2024;;;;;;"13/11/24 20:14:22;eliezio.soares;(flag) Marcação adicionada
+
+Há um padrão utilizado pelos sistemas Intelbras?;;;";;
+Mesmo QR para baixar o app para ambos os sistemas.;IZY-3422;30714;;Tarefa;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 20:06:05;13/11/24 20:06:35;06/01/25 14:56:12;;;;;0;"!image (1).png|width=288,height=231!";;eliezio.soares;;;;;;;;;;;"13/11/24 20:06:27;eliezio.soares;image (1).png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22227/image+%281%29.png";;;;;;;;;;;;;Impedimento;;;;;;"0|i02xos:";Backlog 2024;;;;;;;;
+[DevOps] Analisar viabilidade de acesso ao ambiente de desenvolvimento;IZY-3421;30713;;Tarefa;In Test;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 19:41:32;02/12/24 13:54:31;18/11/24 10:35:27;;DEVOPS;;;0;"Verificar se o ambiente de desenvolvimento pode ser acessado remotamente pelo LabCoMU, analisando permissões de rede e configuração de portas necessárias.
+
+ 
+ # {*}Análise de Portas e Configuração de Rede{*}:
+
+ ** Verificar se as portas necessárias estão abertas e corretamente configuradas para permitir o acesso remoto.
+ ** Identificar eventuais restrições de firewall ou políticas de segurança que possam bloquear o acesso.
+ # {*}Documentação dos Resultados{*}:
+
+ ** Documentar as permissões e configurações de portas necessárias no Notion, incluindo instruções para ajustes, se necessário.";;eliezio.soares;paulo.vanzo;;;;;;;;;;;;;;;;;;IZY-193;;;;;;;;;;;"0|i02xnk:";Backlog 2024;;;;;;"02/12/24 13:54:31;paulo.vanzo;Necessário validar o acesso ao Schema Registry e ao Kafka para liberar os IPs, assim que liberarem o acesso à confluent, pedimos ao professor Gibeon para liberar o acesso completo do lab ao Broker e ao Banco também.;;;";;
+Onboarding de Usuário no Sistema;IZY-3420;30712;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 19:29:48;14/11/24 16:09:39;06/01/25 14:56:12;;;;;0;"*Como* Usuário recém-cadastrado no Izy Manager
+*Quero* ser guiado pelas principais funcionalidades do sistema
+*Para* que eu entenda como utilizar a plataforma de forma eficiente desde o início
+h4. Critérios de Aceitação:
+ # {*}Exibição de Tour Inicial{*}:
+
+ ** Ao realizar o primeiro login, o sistema deve iniciar automaticamente um tour guiado pelas principais áreas e funcionalidades do Izy Manager.
+ ** O usuário deve poder avançar, retornar ou pular etapas do tour a qualquer momento.
+ # {*}Destaque das Funcionalidades Principais{*}:
+
+ ** O onboarding deve apresentar áreas essenciais, como o painel de controle, adição de dispositivos, configurações de conta, e visualização de dispositivos conectados.
+ ** Para cada funcionalidade, exibir uma breve explicação de sua utilidade e como acessá-la.
+ # {*}Orientação para Configurações Iniciais{*}:
+
+ ** Incluir instruções para configurações iniciais recomendadas, como adicionar o primeiro dispositivo, configurar uma conta IMOU, ou personalizar preferências de notificação.
+ # {*}Opção de Revisitar o Onboarding{*}:
+
+ ** O sistema deve disponibilizar um botão ou link no menu de ajuda para que o usuário possa acessar novamente o onboarding completo a qualquer momento.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-3402;;;;;;;;;;;"0|i02xno:";Backlog 2024;;;;;;;;
+Controlar remotamente dispositivo IMOU;IZY-3419;30711;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 19:27:57;06/01/25 09:28:53;19/11/24 11:24:01;;;;;0;"*Como* administrador ou operador
+*Quero* controlar remotamente meus dispositivos IMOU
+*Para* ajustar configurações como ligar, desligar ou alterar a cor, quando essas opções estiverem disponíveis
+h4. Critérios de Aceitação:
+ * {*}Envio de Comandos Remotos{*}:
+ ** O sistema deve permitir que o cliente envie comandos ao dispositivo IMOU, como ligar, desligar, ajustar brilho ou mudar a cor (caso o dispositivo suporte essas funções).
+ ** Os comandos disponíveis devem ser exibidos ao cliente de acordo com as capacidades específicas de cada dispositivo.
+ * {*}Confirmação de Execução do Comando{*}:
+ ** Após o envio do comando, o sistema deve exibir um feedback em tempo real (ex.: “Comando enviado com sucesso”) ou uma notificação de erro caso o comando não seja executado.
+
+ * 
+ ** O sistema deve atualizar o status do dispositivo na interface para refletir o novo estado (ex.: ligado/desligado).
+ * {*}Mensagens de Erro e Tentativas Adicionais{*}:
+ ** Se houver problemas de comunicação com a API IMOU, o sistema deve exibir uma mensagem de erro e sugerir uma nova tentativa para o cliente.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-3410;;;;;;;;8.0;;;"0|i02wsc:r";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 4;;;;;;;
+Editar dispositivo (IMOU);IZY-3418;30710;;História;Needs Test;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;uriel.lira;eliezio.soares;eliezio.soares;13/11/24 19:25:47;27/12/24 16:37:13;16/12/24 09:51:39;;;;;0;" 
+
+*Como* administrador ou operador
+
+*Quero* editar as informações de um dispositivo IMOU
+
+*Para* ajustar o nome, dados adicionais e sua posição na organização de dispositivos, dentre outras propriedades
+h3. Critérios de Aceitação:
+ # {*}Modificação de Dados do Dispositivo{*}:
+ ** O sistema deve permitir ao cliente renomear o dispositivo, exibindo o novo nome imediatamente na interface após a alteração.
+ ** O nome atualizado deve ser refletido em todas as áreas da plataforma onde o dispositivo é exibido.
+ ** O cliente deve poder modificar informações adicionais, como descrição, localização física e outras propriedades.
+ ** As alterações devem ser salvas e exibidas corretamente na interface do Izy Manager.
+ ** O sistema deve permitir ao cliente mover o dispositivo para diferentes categorias, grupos ou locais definidos na estrutura do empreendimento.
+ ** O dispositivo deve ser exibido na nova posição após a alteração, refletindo a nova organização definida pelo usuário.
+ # {*}Mensagens de Sucesso e Erro{*}:
+ ** O sistema deve exibir uma mensagem de confirmação ao usuário após a conclusão bem-sucedida de qualquer alteração.
+ ** Em caso de erro ao salvar as modificações (ex.: problema de comunicação com a API IMOU), o sistema deve informar o usuário e permitir uma nova tentativa.
+ # *Impedir edição de dispositivo offline:*
+ ## Quando o dispositivo estiver offline, o card deve ficar desabilitado para impedir edição.
+
+ 
+
+ ";;aamedeiros;eliezio.soares;;;;;;;;;;;;;;;;;;IZY-3410;;;;;Impedimento;;;8.0;;;"0|i02xnc:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;"27/12/24 08:45:19;aamedeiros;(flag) Marcação adicionada
+
+A espera de IZY-3416;;;";"27/12/24 16:37:13;aamedeiros;(flag) Marcação adicionada
+
+A espera de IZY-3416;;;";
+Remover dispositivo individual MIS 1003 (IMOU);IZY-3417;30709;;História;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;eliezio.soares;eliezio.soares;13/11/24 19:21:26;02/12/24 14:08:52;19/11/24 11:23:11;;;;;0;"*Como* administrador ou operador
+*Quero* remover um dispositivo IMOU da plataforma
+*Para* que ele não esteja mais disponível para controle e monitoramento no Izy Manager
+h4. Critérios de Aceitação:
+ # {*}Confirmação de Remoção{*}:
+
+ * 
+ ** O sistema deve solicitar uma confirmação do cliente antes de remover o dispositivo, exibindo uma mensagem de aviso sobre a perda de acesso ao controle e monitoramento.
+ ** Após a confirmação, o dispositivo deve ser removido da lista de dispositivos conectados do cliente.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-3410;;;;;;;;5.0;;;"0|i02wsc:w";Izy - Cycle 24.1 Sprint 1;Backlog 2024;;;;;;;
+Vincular Conta Mibo Smart;IZY-3416;30708;;História;Build Request;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;uriel.lira;eliezio.soares;eliezio.soares;13/11/24 19:07:42;27/12/24 22:35:40;06/01/25 10:16:19;;BACK;FRONT;;0;"Esta atividade consiste em possibilitar ao usuário IzyManager conectar uma conta Mibo Smart existente, permitindo que os dispositivos associados à conta Mibo sejam gerenciados na plataforma Izy.
+
+*Como* administrador ou operador
+*Quero* vincular minha conta Mibo Smart à plataforma.
+*Para* gerenciar meus dispositivos Mibo adicionados a plataforma Mibo.
+
+ 
+
+Critérios de Aceitação:
+ * O sistema deve verificar se o cliente possui uma conta Mibo.
+ * Caso o cliente não tenha uma conta, o sistema deve exibir uma mensagem informativa e fornecer um link ou instruções para criar uma conta Mibo.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-3410;;;;;;;;10.0;;;"0|i02xms:";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;;
+[BACK] Não é possível cadastrar usuário;IZY-3415;30659;;Problema;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;uriel.lira;aamedeiros;aamedeiros;13/11/24 13:37:01;27/12/24 08:10:08;06/01/25 14:56:12;;;;;0;"Esse problema acontece tanto ao criar nova conta no sistema, quanto também cadastrar um novo usuário em um empreendimento. De modo que dá erro 500 ao tentar cadastrar um novo usuário, conforme mostrado no vídeo a seguir:
+
+[^Gravar_2024_11_13_13_35_24_27.mp4]
+
+ ";;aamedeiros;paulo.lopes.013;;;;;;;;;;"13/11/24 13:39:18;aamedeiros;Gravar_2024_11_13_13_35_24_27.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22217/Gravar_2024_11_13_13_35_24_27.mp4";;;;;;;;;;;;;Impedimento;;;;;;"0|i02xnh:w";Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;"25/11/24 07:39:49;paulo.lopes.013;O problema ocorre devido ao fluxo atual de uso do Izy Manager, que vincula a criação da conta de usuário no aplicativo a uma conta Tuya. Ao analisar os logs, foi identificado que o contrato com a Tuya está expirado ou não existe mais no ambiente, impossibilitando qualquer tipo de criação de novas contas. O evento foi repassado para [~eliezio.soares] para posterior agenda com [~evandro.junior] . 
+
+O log 
+{code:java}
+2024-11-22 20:39:01.173 ERROR 1 --- [nio-8080-exec-5] b.c.i.IzyApi.tuya.TuyaRestClient         : Error on tuya comunication
+org.springframework.web.server.ResponseStatusException: 500 INTERNAL_SERVER_ERROR ""{code=10006, msg=Contract expired or not exist, success=false, t=1732307941136, tid=cd9767f9a91111ef8a4986f0f11a78f3}""
+	at br.com.intelbras.IzyApi.tuya.TuyaRestClient.getObjectResponseEntity(TuyaRestClient.java:113) ~[classes!/:2.2.0-SNAPSHOT]
+	at br.com.intelbras.IzyApi.tuya.TuyaRestClient.doRequest(TuyaRestClient.java:66) ~[classes!/:2.2.0-SNAPSHOT]
+2024-11-22 20:39:01.179 ERROR 1 --- [nio-8080-exec-5] b.c.i.I.e.ControllerExceptionHandler     : Exception org.springframework.web.server.ResponseStatusException, Message: 500 INTERNAL_SERVER_ERROR ""{code=10006, msg=Contract expired or not exist, success=false, t=1732307941136, tid=cd9767f9a91111ef8a4986f0f11a78f3}""; nested exception is org.springframework.web.server.ResponseStatusException: 500 INTERNAL_SERVER_ERROR ""{code=10006, msg=Contract expired or not exist, success=false, t=1732307941136, tid=cd9767f9a91111ef8a4986f0f11a78f3}"" {code}
+ 
+
+De tal maneira, esta história agora contemplará, retirar, até segundo entendimento, a funcionalidade de vínculo tuya/izy smart na criação de contas e demais cenários já reportados aqui. Assim podemos prosseguir com outras demandas até que se esclareça o entendimento sobre essa funcionalidade.  [~leonandro.gurgel] [~uriel.lira] [~aamedeiros] ;;;";"27/12/24 08:10:08;paulo.lopes.013;(flag) Marcação adicionada
+
+Aguardando desfecho para compartilhamento de chaves do Izy Smart;;;";
+[FRONT] Nome do aplicativo sendo referenciado de forma incorreta;IZY-3414;30657;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;13/11/24 13:27:33;22/11/24 09:29:06;06/01/25 14:56:12;;;;;0;"Ao invés de aparecer o nome do aplicativo Izy Smart, está aparecendo IzyManager. Como mostrado na imagem abaixo na tela de automações quando se seleciona uma tarefa > executar dispositivo.
+
+!image-2024-11-13-13-29-36-216.png|width=570,height=431! O mesmo acontece na tela de recuperar senha, onde é mostrado o nome do sistema ao invés do aplicativo Izy Smart.
+
+!image-2024-11-22-09-28-00-986.png!
+
+ 
+
+ ";;aamedeiros;;;;;;;;;;;"13/11/24 13:29:35;aamedeiros;image-2024-11-13-13-29-36-216.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22215/image-2024-11-13-13-29-36-216.png";"22/11/24 09:28:01;aamedeiros;image-2024-11-22-09-28-00-986.png;https://jira.smartretail.ufrn.br/jira/secure/attachment/22311/image-2024-11-22-09-28-00-986.png";;;;;;;;;;;;;;;;;;"0|i02xo4:";Backlog 2024;;;;;;;;
+Analisar estratégias para extensão do back ;IZY-3413;30631;;Spike;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;leonandro.gurgel;leonandro.gurgel;leonandro.gurgel;12/11/24 08:20:42;27/11/24 11:30:21;06/01/25 14:56:12;27/11/24 11:30:21;BACK;;;0;;;leonandro.gurgel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02xyy:";Izy - Cycle 24.1 Sprint 0;Izy - Cycle 24.1 Sprint 1;;;;;;;
+Hands-on na Cloud Tuya;IZY-3412;30630;;Spike;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.lopes.013;eliezio.soares;eliezio.soares;12/11/24 00:13:49;12/11/24 00:16:22;06/01/25 14:56:12;12/11/24 00:14:56;;;;0;;;eliezio.soares;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02wso:";Izy - Cycle 24.1 Sprint 0;;;;;;"12/11/24 00:16:08;eliezio.soares;[(9+) API Tuya para integração|https://www.notion.so/API-Tuya-para-integra-o-a7247a89c47b49b3865cef715f29f1be];;;";"12/11/24 00:16:22;eliezio.soares;[(9+) Upstream Tuya Developer Platform e Dispositivos Virtuais.|https://www.notion.so/Upstream-Tuya-Developer-Platform-e-Dispositivos-Virtuais-62c3c8401a5f4695ac7f3c86e44e6075];;;";
+[DevOps] Analise de infra e oportunidades;IZY-3411;30546;;Spike;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;paulo.vanzo;eliezio.soares;eliezio.soares;08/11/24 10:32:08;02/12/24 13:51:54;17/11/24 22:04:11;02/12/24 13:51:54;DEVOPS;;;0;"{*}Escopo de Atuação{*}: DevOps
+
+{*}Objetivo{*}: Avaliar a infraestrutura atual na AWS, identificando oportunidades para otimização de custos, desempenho e segurança.
+
+{*}Requisitos & Observações{*}:
+ # {*}Mapeamento da Infraestrutura Atual{*}:
+
+ * 
+ ** Revisar os recursos em uso e suas configurações, identificando possíveis excessos ou subutilização.
+ ** Analisar custos e sugerir ajustes para otimização financeira.
+ ** Identificar possíveis melhorias de desempenho, como ajuste de autoscaling ou uso de serviços gerenciados.
+ ** Revisar configurações de segurança, como permissões IAM e políticas de backup.
+
+ # {*}Documentação no Notion{*}:
+
+ * 
+ ** Registrar o estado atual da infraestrutura e recomendações de ajustes, priorizando ações de otimização e segurança.
+ ** Incluir sugestões de boas práticas para governança e manutenção contínua.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-193;;;;;;;;;;;"0|i02wsg:";Izy - Cycle 24.1 Sprint 0;Backlog 2024;;;;;;;
+Explorar Mibo Smart e Intelbras Style Guide mapeando alterações necessárias no Izy Manager;IZY-3408;30518;30510;Sub-tarefa-padrão;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;eliezio.soares;eliezio.soares;07/11/24 15:57:45;19/11/24 11:34:07;06/01/25 14:56:12;19/11/24 11:34:07;;;;0;;;eliezio.soares;paulo.lopes.013;uriel.lira;;;;;;;;;;;;;;;;;;;;;;;;;;;;"0|i02wt0:";Izy - Cycle 24.1 Sprint 0;;;;;;"08/11/24 11:27:23;uriel.lira;Informações do estudo exploratório serão reportadas na seguinte página do notion: https://www.notion.so/Explorar-Mibo-Smart-e-Intelbras-Style-Guide-mapeando-altera-es-necess-rias-no-Izy-Manager-ea6e898a3a8148f5b0008b46ee256657;;;";;
+Documentar fluxo de comunicação com a IMOU;IZY-3407;30517;30516;Sub-tarefa-padrão;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;paulo.lopes.013;eliezio.soares;eliezio.soares;07/11/24 15:56:49;14/11/24 11:50:18;06/01/25 14:56:12;;;;;0;;;eliezio.soares;paulo.lopes.013;;;;;;;;;;;;;;;;;;;;;;;Impedimento;;;;;;"0|i02wss:";Izy - Cycle 24.1 Sprint 0;Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;"14/11/24 11:50:11;paulo.lopes.013;(flag) Marcação adicionada
+
+Com a ausencia da possibilidade de uso de dispositivos virtuais, aguardando dispositivos para upstream e dev.;;;";;
+Hands-on na IMOU life;IZY-3406;30516;;Spike;Em Andamento;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;paulo.lopes.013;eliezio.soares;eliezio.soares;07/11/24 15:56:08;16/12/24 08:51:51;14/11/24 10:39:03;;;;;0;"{*}Objetivo{*}: Explorar a API e aprender a manipular dispositivos na plataforma IMOU Life, visando entender suas funcionalidades e limitações.
+
+{*}Requisitos & Observações{*}:
+ # {*}Explorar a API{*}:
+
+ ** Analisar a documentação da API da IMOU Life, entendendo os endpoints disponíveis e os parâmetros de autenticação.
+ ** Testar comandos básicos de controle e monitoramento de dispositivos, mapeando funcionalidades principais.
+ ** Realizar operações nos dispositivos IMOU Life para verificar compatibilidade, respostas e tempo de execução.
+ ** Documentar observações sobre controle e comportamento dos dispositivos na plataforma.
+ # {*}Documentação no Notion{*}:
+
+ ** Registrar instruções de uso da API e detalhes sobre comandos funcionais e limitações observadas.
+ ** Incluir exemplos práticos e dicas para facilitar o uso da plataforma pela equipe.";;eliezio.soares;;;;;;;;;;;;;;;;;;;IZY-3410;;;;;Impedimento;;;;;;"0|i02xyw:";Izy - Cycle 24.1 Sprint 0;Izy - Cycle 24.1 Sprint 1;Izy - Cycle 24.1 Sprint 2;Izy - Cycle 24.1 Sprint 3;;;;;
+Documentar funcionalidades disponíveis no Izy Manager para dispositivos Tuya;IZY-3405;30515;;Spike;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;aamedeiros;eliezio.soares;eliezio.soares;07/11/24 15:55:44;19/11/24 13:38:32;06/01/25 14:56:13;19/11/24 13:38:32;;;;0;"{*}Objetivo{*}: Registrar as funcionalidades que o Izy Manager oferece para dispositivos da plataforma Tuya, incluindo controle, monitoramento, configuração, entre outras.
+
+{*}Requisitos & Observações{*}:
+ # {*}Mapeamento de Funcionalidades{*}:
+
+ ** Listar funcionalidades disponíveis para dispositivos Tuya (ex.: controle remoto, monitoramento de status) e identificar tipos compatíveis (ex.: sensores, câmeras).
+ ** Detalhar no Notion as funcionalidades para cada tipo de dispositivo Tuya, incluindo comandos e eventos suportados.
+ ** Incluir observações técnicas, como requisitos e limitações específicas.
+ ** Eventualmente registrar sugestões de funcionalidades adicionais ou melhorias para suportar novos dispositivos ou capacidades.";;aamedeiros;eliezio.soares;;;;;;;;;;;;;;;;;;IZY-3410;;;;;;;;;;;"0|i02wsc:";Izy - Cycle 24.1 Sprint 0;;;;;;"12/11/24 10:16:11;aamedeiros;Documentação está no notion através do link: https://www.notion.so/Funcionalidades-Izy-Manager-13b3f97d050d80f0bb7aff3389093756;;;";;
+[BACK] Espaço não é listado no local após ser criado com imagem;IZY-3404;30511;;Problema;Backlog;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;;;aamedeiros;aamedeiros;07/11/24 13:11:52;13/11/24 19:42:47;06/01/25 14:56:13;;;;;0;"Quando se acessa um local de um empreendimento e cria-se um espaço contendo imagem, aparentemente ele é criado pois o usuário é redirecionado para o novo espaço. Mas ao acessar o local o espaço criado não é listado, conforme mostrado no vídeo a seguir: [^Gravar_2024_11_07_10_15_05_973.mp4]
+
+ Além disso, se criar um novo espaço, no mesmo local, contendo o mesmo nome e grupo de usuários mas sem a imagem, o espaço é criado e listado no local normalmente. ";;aamedeiros;;;;;;;;;;;"07/11/24 13:08:53;aamedeiros;Gravar_2024_11_07_10_15_05_973.mp4;https://jira.smartretail.ufrn.br/jira/secure/attachment/22145/Gravar_2024_11_07_10_15_05_973.mp4";;;;;;;;;;;;;;;;;;;"0|i02xoc:";Backlog 2024;;;;;;;;
+[FRONT] Mapear alterações para Rebranding de produto;IZY-3403;30510;;Spike;Concluída;IZY;Izy Manager;software;ricardo.niederauer;;;Medium;Concluída;uriel.lira;eliezio.soares;eliezio.soares;07/11/24 10:27:49;19/11/24 11:34:10;06/01/25 14:56:13;19/11/24 11:34:10;;;;0;"{*}Escopo de Atuação{*}: Frontend
+
+{*}Objetivo{*}: Identificar e documentar as modificações necessárias na interface do usuário para alinhar o Izy Manager ao rebranding, integrando os elementos do Style Guide Intelbras e do Mibo Smart.
+
+{*}Requisitos & Observações{*}:
+ # {*}Mapear Elementos de Interface{*}:
+
+ ** Identificar componentes visuais impactados pelo rebranding, incluindo logotipo, paleta de cores, tipografia, ícones e botões.
+ ** Levantar todas as telas, modais e componentes interativos que precisam de ajustes visuais, validando a consistência em todo o fluxo do usuário.
+ ** Documentar as variáveis de estilo (ex.: cores e fontes) que necessitam de ajuste conforme o novo Style Guide da Intelbras e Mibo Smart.
+ # {*}Documentação no Notion{*}:
+
+ ** Criar uma lista das alterações requeridas para cada componente ou tela do Izy Manager, integrando as referências do Style Guide da Intelbras e Mibo Smart.
+ ** Incluir capturas de tela e, se possível, mockups com as mudanças propostas para facilitar a visualização do impacto.
+ ** Registrar orientações específicas sobre novas diretrizes de design, como proporções, espaçamento e estilo dos elementos, conforme o padrão da Intelbras.
+ ** Documentar eventuais conflitos técnicos ou limitações, registrando no Notion para facilitar o acompanhamento e resolução futura.";;eliezio.soares;paulo.lopes.013;;;;;;;;;;;;;;;;;;IZY-3409;;;;;;;;;;;"0|i02wsm:";Izy - Cycle 24.1 Sprint 0;;;;;;"08/11/24 09:02:16;paulo.lopes.013;Style Guide [https://backend.intelbras.com/sites/default/files/download/guias/guia-estilo/guia.html]
+
+Após o detalhamento das atividades, é importante agendar com [~evandro.junior] a priorização e relevância das tarefas.;;;";;
