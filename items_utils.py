@@ -1,7 +1,5 @@
 import pandas as pd
 
-
-
 #retorna apenas os itens da sprint ativa
 def filter_sprint_ativa(df, sprint_ativa):
     return df[df['sprints'].apply(lambda x: sprint_ativa in x)]
@@ -39,7 +37,6 @@ def get_status_summary(df):
     return status_summary
 
 def simplify_status(status):
-    #print(status)
     if status == 'Concluída':
         return 'Concluído'
     elif status == 'Backlog':
