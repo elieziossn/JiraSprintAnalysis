@@ -1,5 +1,7 @@
 import pandas as pd
 
+
+
 #retorna apenas os itens da sprint ativa
 def filter_sprint_ativa(df, sprint_ativa):
     return df[df['sprints'].apply(lambda x: sprint_ativa in x)]
