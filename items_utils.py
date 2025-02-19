@@ -45,3 +45,40 @@ def simplify_status(status):
         return 'Testando'
     else:
         return 'Em Progresso'
+    
+def velocity_by_sprint(sprints_df, df_geral):
+    # Filtrar itens finalizados por sprint e somar os story points
+    velocity_by_sprint = pd.Series(dtype=float)
+    total_points_by_sprint = pd.Series(dtype=float)
+
+    for sprint, dates in sprints_df.iterrows():
+        start_date = dates['start']
+        end_date = dates['end']
+        
+        # Filtrar itens da sprint da iteração
+        sprint_items = iu.filter_sprint_ativa(df_geral, sprint)
+
+        # Filtrar itens finalizados dentro do período da sprint
+        completed_items = df_geral[
+            (df_geral['data_resolucao'] >= start_date) &
+            (df_geral['data_resolucao'] <= end_date) &
+            (df_geral['status'] == 'Concluída')
+        ]
+        
+        # Limpar e converter os story points para float
+        completed_items['story_points'] = completed_items['story_points'].replace('', '0').astype(float)
+        total_story_points = completed_items['story_points'].sum()
+        velocity_by_sprint[sprint] = total_story_points
+
+        # Limpar e converter os story points para float
+        sprint_items['story_points'] = sprint_items['story_points'].replace('', '0').astype(float)
+        total_points = sprint_items['story_points'].sum()
+        total_points_by_sprint[sprint] = total_points
+
+    # Criar um DataFrame com as contagens
+    velocity_df = pd.DataFrame({
+        'Story Points Concluídos': velocity_by_sprint,
+        'Total de Story Points': total_points_by_sprint
+    }).fillna(0).astype(float)
+    
+    return velocity_df
